@@ -6,8 +6,8 @@
 $(document).ready(function() {
   $("#navg").hide();
 $(window).on('load', function() { // makes sure the whole site is loaded
-    $(".loader").fadeOut(); // will first fade out the loading animation
-    $("#goo").delay(500).fadeOut("slow"); // will fade out the white DIV that covers the website.
+    $("#status").fadeOut(); // will first fade out the loading animation
+    $("#preloader").delay(500).fadeOut("slow"); // will fade out the white DIV that covers the website.
     $("#navg").show(1200);
 });
 });
